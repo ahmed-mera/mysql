@@ -1,0 +1,25 @@
+*{
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;  
+}
+
+body{
+    background: #eee
+}
+.alert{padding: 8px 0; text-indent: 15px}
+.alert > p {margin: 0}
+.login{
+    max-width: 500px;
+    transform: translateY(40%);
+    -webkit-transform: translateY(40%);
+    -moz-transform: translateY(40%);
+    -ms-transform: translateY(40%);
+    -o-transform: translateY(40%);
+}
+.login > h1 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #a8a7a7;
+}
